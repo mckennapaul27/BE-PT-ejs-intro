@@ -1,0 +1,16 @@
+<% include ../partials/head %>
+<% include ../partials/header %>
+    <section class="container">
+      <% pets.forEach(function (petRow) { %>
+        <div class="row">
+          <% petRow.forEach(pet => { %>
+            <% include ../partials/card %>
+          <% }) %>
+        </div>
+     <% }) %>
+         
+       
+    </section>
+    <% include ../partials/footer %>
+    
+    

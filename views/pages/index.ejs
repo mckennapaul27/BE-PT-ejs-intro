@@ -1,0 +1,14 @@
+<% include ../partials/head %>
+<% include ../partials/header %>
+
+
+    <section class="container">
+        <h1>Pets!</h1>
+        <% pets.forEach (function (pet) { %>
+            <p>
+            <%= pet.name %>
+            </p>
+       <% }) %>
+    </section>
+
+<% include ../partials/footer %>       
