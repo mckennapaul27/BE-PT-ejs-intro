@@ -12,9 +12,10 @@
   "devDependencies": {
     "ejs": "^2.5.9",
     "express": "^4.16.3",
-    "nodemon": "^1.17.3"
+    "nodemon": "^1.18.4"
   },
   "dependencies": {
+    "deep-extend": "^0.6.0",
     "ejs-lint": "^0.3.0",
     "lodash": "^4.17.10",
     "lodash.chunk": "^4.2.0"
